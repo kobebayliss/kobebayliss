@@ -21,11 +21,14 @@ namespace me {
 ```
 
 ### `about()`
-```
-  Studing     →  Computer Science
-  Based in    →  Auckland, New Zealand
-  Currently   →  Building MealFlow
-  Goal        →  Learn how to center a div
+```cpp
+std::string about() {
+     return
+         "Studying     : Computer Science"
+         "Based in     : Auckland, New Zealand"
+         "Currently    : Building MealFlow"
+         "Goal         : Learn how to center a div";
+}
 ```
 
 ---
@@ -33,18 +36,21 @@ namespace me {
 ### `stack()`
 
 ```cpp
-  /* languages */
-  const std::vector<std::string> languages = {
-      "Python", "Java", "C++", "JS/TS", "HTML/CSS", "SQL", "PHP"
-  };
+std::vector<std::string> languages() {
+     return {
+          "Python", "Java", "C++", "JS/TS", "HTML/CSS", "SQL", "PHP"
+     };
+}
 
-  /* tools & frameworks */
-  const std::vector<std::string> tools = {
-      "React", "Redis", "Kafka", "Next.js", "Express", "Node.js", "React Native", "Selenium"
-  };
+std::vector<std::string> tools() {
+    return {
+        "React", "Redis", "Kafka", "Next.js", "Express", "Node.js", "React Native", "Selenium"
+    };
+}
 
-  /* currently learning */
-  std::string learning = "distributed systems";
+std::string learning() {
+    return "distributed systems";
+}
 ```
 
 ---
@@ -52,21 +58,30 @@ namespace me {
 ### `projects()`
 
 ```cpp
-  //    ★  Prowler
-  //    compare game prices across Steam & Epic, instantly
-  //    → github.com/kobebayliss/Prowler
-
-  //    ★  Orbit Scheduler
-  //    1st place hackathon project for optimising satellite pass scheduling
-  //    → github.com/jackjiachenli/codebrew-26
-
-  //    ★  Memento
-  //    personal memory and partner connection app
-  //    → github.com/kobebayliss/Memento
-
-  //    ★  Precis
-  //    convert long URL's into compact links
-  //    → github.com/kobebayliss/Precis
+std::unordered_map<std::string, std::string> projects() {
+     return {
+        {
+            "Prowler",
+            "Compare game prices across Steam & Epic instantly"
+            "github.com/kobebayliss/Prowler"
+        },
+        {
+            "Orbit Scheduler",
+            "1st place hackathon project for optimising satellite pass scheduling"
+            "github.com/jackjiachenli/codebrew-26"
+        },
+        {
+            "Memento",
+            "Personal memory and partner connection app"
+            "github.com/kobebayliss/Memento"
+        },
+        {
+            "Precis",
+            "Convert long URLs into compact links"
+            "github.com/kobebayliss/Precis"
+        }
+    };
+}
 ```
 
 ---
@@ -77,12 +92,6 @@ namespace me {
 
 ```cpp
 } // namespace me
-```
-
----
-
-```cpp
-// early days
 return 0;
 ```
 <div align="center">
