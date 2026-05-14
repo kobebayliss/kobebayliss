@@ -6,7 +6,7 @@
 
 <div align="center">
   
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0,1a1a2e,58a6ff&height=180&section=header&text=kobebayliss&fontSize=40&fontColor=e6edf3&fontAlignY=28&desc=penultimate-year%20CS%20%40%20Auckland%20&nbsp;&nbsp;%7C&nbsp;&nbsp;%20incoming%20software%20dev%20intern%20%40%20Optiver&descSize=13&descAlignY=48&descFontColor=8b949e&animation=fadeIn&font=Fira+Code" style="display:block;margin-bottom:-100px"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0,1a1a2e,58a6ff&height=180&section=header&text=kobebayliss&fontSize=40&fontColor=e6edf3&fontAlignY=28&desc=penultimate-year%20CS%20%40%20Auckland&descSize=13&descAlignY=48&descFontColor=8b949e&animation=fadeIn&font=Fira+Code" style="display:block;margin-bottom:-100px"/>
 
 [![GitHub](https://img.shields.io/badge/GitHub-kobebayliss-181717?style=flat-square&logo=github)](https://github.com/kobebayliss)&nbsp;&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/kobebayliss)&nbsp;&nbsp;
@@ -24,7 +24,7 @@ namespace me {
 ```cpp
 std::string about() {
      return
-         "Studying     : Computer Science"
+         "Studying     : Computer Science and Math"
          "Based in     : Auckland, New Zealand"
          "Currently    : Building MealFlow"
          "Goal         : Learn how to center a div";
@@ -49,7 +49,7 @@ std::vector<std::string> tools() {
 }
 
 std::string learning() {
-    return "distributed systems";
+    return "Concurrency in C++";
 }
 ```
 
