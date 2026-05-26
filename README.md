@@ -38,7 +38,7 @@ std::string about() {
 ```cpp
 std::vector<std::string> languages() {
      return {
-          "Python", "Java", "C++", "JS/TS", "HTML/CSS", "SQL", "PHP"
+          "Python", "Java", "C/C++", "JS/TS", "HTML/CSS", "SQL", "PHP"
      };
 }
 
@@ -49,7 +49,7 @@ std::vector<std::string> tools() {
 }
 
 std::string learning() {
-    return "Concurrency in C++";
+    return "Memory virtualisation";
 }
 ```
 
