@@ -1,8 +1,7 @@
 ```
 > fastfetch
 
-kobe@github
------------
+Name:      Kobe
 Location:  Auckland
 Studying:  CS & Math
 OS:        macOS / Arch Linux
